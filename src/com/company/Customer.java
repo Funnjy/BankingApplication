@@ -27,9 +27,9 @@ public class Customer {
         return transactions;
     }
 
-    public String toString(){
+    public String toString() {
         return "Customer name: " + getName();
-     }
+    }
 
     public ArrayList<Double> getTransactions() {
         return transactions;

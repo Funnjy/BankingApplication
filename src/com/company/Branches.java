@@ -1,6 +1,5 @@
 package com.company;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
 import java.util.ArrayList;
 
@@ -46,7 +45,7 @@ public class Branches {
 
     public String getName() {
         return name;
-   }
+    }
 
     public ArrayList<Customer> getCustomerList() {
         return customerList;
